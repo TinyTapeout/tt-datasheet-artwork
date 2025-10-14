@@ -1,0 +1,65 @@
+# the root key must correspond to a folder i.e. "artwork"
+# the entries after the root key are formatted like so:
+#
+# UNIQUE_ID_OF_IMAGE:
+#   title: <title of the image>   # required
+#   artist: <artist name>         # required
+#   designer: <designer name>     # optional
+#   file: <filepath string>       # required
+#
+# the filepath string is relative to the root key. for example, if root key = "artwork", and file = "example.jpg"
+# then the resolved filepath will be artwork/example.jpg
+
+artwork:
+  TT_POCA_01_A:
+    title: MPW-6 "Hack SoC"
+    artist: Máximo Balestrini
+    file: TT-POCA-01-A.jpg
+
+  TT_POCA_01_B:
+    title: MPW-2 poly layers
+    designer: Matt Venn
+    artist: Máximo Balestrini
+    file: TT-POCA-01-B.jpg
+
+  TT_POCA_01_C:
+    title: Detail - Fibonacci design (MPW-2)
+    designer: Konrad Rzeszutek Wilk
+    artist: Máximo Balestrini
+    file: TT-POCA-01-C.jpg
+
+  TT_POCA_01_D:
+    title: 555 render (TT06)
+    designer: Vincent Fusco
+    artist: Máximo Balestrini
+    file: TT-POCA-01-D.jpg
+
+  TT_POCA_01_E:
+    title: SkullFET render (MPW-4)
+    designer: Uri Shaked
+    artist: Máximo Balestrini
+    file: TT-POCA-01-E.jpg
+
+  TT_POCA_01_F:
+    title: VGA clock render
+    designer: Matt Venn
+    artist: Máximo Balestrini
+    file: TT-POCA-01-F.jpg
+
+  TT_POCA_01_G:
+    title: VGA clock render
+    designer: Matt Venn
+    artist: Máximo Balestrini
+    file: TT-POCA-01-G.jpg
+
+  TT_POCA_01_H:
+    title: TT06 IC - decapped
+    designer: Tiny Tapeout
+    artist: Texplained
+    file: TT-POCA-01-H.jpg
+
+  TT_POCA_01_I:
+    title: Oscillating Bones
+    designer: Uri Shaked
+    artist: Texplained
+    file: TT-POCA-01-I.jpg
