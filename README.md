@@ -8,19 +8,21 @@ added to `manifest.yaml` and the required fields filled out so that the build ac
 
 ## Structure of `manifest.yaml`
 
-The manifest can contain multiple root keys, such as `artwork`, which correspond to a folder within the repo.
+There can be one or more dictionaries at the root of this file. The key of these dictionaries must correspond to a
+folder within the root of this repo, i.e. "artwork" or "backgrounds".
 
-These root keys then contain multiple key-value pairs which are used fetch information like the artist, designer,
-actual file of the image and its title. Each key must be unique, as that is used to ID it.
+The values of these root dictionaries can be one or more dictionaries where its key is an unique ID for an image,
+and its value consists of the keys shown below.
 
-Example:
-```yaml
-artwork:
-    image_1:
-        title: Chip Decap
-        designer: Person A
-        artist: Person B
-        file: decap.jpg
-```
+| key       | required  | scope    | description                                |
+| :-------- | :-------- | :------- | :----------------------------------------- |
+| file      | yes       | all      | file path of image (relative to root key)  |
+| title     | yes       | artwork  | title of the artwork                       |
+| artist    | yes       | artwork  | author of the artwork                      |
+| designer  | no        | artwork  | author of the design being illustrated     |
 
-In this example, `image_1` (its unique ID) should live at `artwork/decap.jpg`.
+Depending on the scope of the image, only some keys may need to be specified. Anything which is used as artwork in
+the datasheet must have its attribution information filled out before being made available.
+
+The filepath string is relative to the root key. For example, if the root key = "artwork", and file = "example.jpg"
+then the resolved filepath will be `artwork/example.jpg`.
