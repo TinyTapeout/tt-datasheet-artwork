@@ -74,3 +74,16 @@ artwork:
 backgrounds:
   gds_bw_transparent:
     file: colourful-background-gds-o10-bw.png
+
+images:
+  mux_controller:
+    file: mux_controller.svg
+
+  mux_diagram:
+    file: mux_diagram.svg
+
+  mux_address_select_waveform:
+    file: mux_select_addr_12.svg
+
+  chip_pinout_qfn64:
+    file: tt-qfn-64.svg
