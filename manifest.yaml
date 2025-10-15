@@ -70,3 +70,7 @@ artwork:
     designer: Uri Shaked
     artist: Texplained
     file: TT-POCA-01-I.jpg
+
+backgrounds:
+  gds_bw_transparent:
+    file: colourful-background-gds-o10-bw.png
