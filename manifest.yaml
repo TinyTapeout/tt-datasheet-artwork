@@ -1,11 +1,18 @@
-# the root key must correspond to a folder i.e. "artwork"
-# the entries after the root key are formatted like so:
+# there can be one or more dictionaries at the root of this file. the key of these dictionaries must correspond to a
+# folder within the root of this repo, i.e. "artwork" or "backgrounds".
 #
-# UNIQUE_ID_OF_IMAGE:
-#   title: <title of the image>   # required
-#   artist: <artist name>         # required
-#   designer: <designer name>     # optional
-#   file: <filepath string>       # required
+# the values of these root dictionaries can be one or more dictionaries where its key is an unique ID for an image,
+# and its value consists of the keys shown below.
+#
+# | key      | required | scope   | description                               |
+# | -------- | -------- | ------- | ----------------------------------------- |
+# | file     | yes      | all     | file path of image (relative to root key) |
+# | title    | yes      | artwork | title of the artwork                      |
+# | artist   | yes      | artwork | author of the artwork                     |
+# | designer | no       | artwork | author of the design being illustrated    |
+#
+# depending on the scope of the image, only some keys may need to be specified. anything which is used as artwork in
+# the datasheet must have its attribution information filled out before being made available.
 #
 # the filepath string is relative to the root key. for example, if root key = "artwork", and file = "example.jpg"
 # then the resolved filepath will be artwork/example.jpg
