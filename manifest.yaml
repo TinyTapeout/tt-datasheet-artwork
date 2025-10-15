@@ -87,3 +87,22 @@ images:
 
   chip_pinout_qfn64:
     file: tt-qfn-64.svg
+
+logos:
+  efabless:
+    file: efabless-logo.png
+
+  texplained:
+    file: texplained-hardware-security.jpg
+
+  tt_roundel_black:
+    file: tt-logo-black.svg
+
+  tt_roundel_light_grey:
+    file: tt-logo-light-grey.svg
+
+  tt_roundel_white:
+    file: tt-logo-white.svg
+
+  tt_square_colourful:
+    file: tt-logo-colourful.png
