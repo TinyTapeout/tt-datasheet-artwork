@@ -77,7 +77,7 @@ backgrounds:
 
 images:
   mux_controller:
-    file: mux_controller.svg
+    file: mux_controller.png
 
   mux_diagram:
     file: mux_diagram.svg
