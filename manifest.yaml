@@ -94,6 +94,9 @@ images:
   chip_pinout_qfn64_gf180mcud:
     file: tt-qfn-64-gf180mcud.svg
 
+  chip_pinout_qfn64_sky130_openframe:
+    file: tt-qfn-64-sky130-openframe.svg
+
 logos:
   efabless:
     file: efabless-logo.png
