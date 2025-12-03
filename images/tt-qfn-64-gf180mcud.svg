@@ -36,8 +36,8 @@
    showguides="true"
    inkscape:guide-bbox="true"
    inkscape:zoom="2.0000001"
-   inkscape:cx="184.5"
-   inkscape:cy="205.49999"
+   inkscape:cx="120.74999"
+   inkscape:cy="217.99999"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
@@ -1553,4 +1553,17 @@
      y="60.286484"
      x="17.934816"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.7px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:end;text-anchor:end;stroke-width:0.0572922"
-     id="tspan778">analog[14]</tspan></text></svg>
+     id="tspan778">analog[14]</tspan></text><text
+   id="text1694"
+   y="63.880619"
+   x="47.836472"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4534px;line-height:1.25;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:center;text-anchor:middle;white-space:pre;inline-size:32.7732;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.228427"
+   xml:space="preserve"
+   transform="translate(0.63712056,0.12861037)"><tspan
+     x="47.836472"
+     y="63.880619"
+     id="tspan2015">GF180mcuD custom 
+</tspan><tspan
+     x="47.836472"
+     y="68.197369"
+     id="tspan2017">pad frame</tspan></text></svg>
