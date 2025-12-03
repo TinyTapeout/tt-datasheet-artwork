@@ -88,6 +88,12 @@ images:
   chip_pinout_qfn64:
     file: tt-qfn-64.svg
 
+  chip_pinout_qfn64_ihp_sg13g2:
+    file: tt-qfn-64-ihp-sg13g2.svg
+
+  chip_pinout_qfn64_gf180mcud:
+    file: tt-qfn-64-gf180mcud.svg
+
 logos:
   efabless:
     file: efabless-logo.png
